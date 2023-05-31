@@ -25,6 +25,14 @@
   });
 
   // owl-carousel
+  $(".testimonial-slider-active").owlCarousel({
+    loop: false,
+    margin: 0,
+    rtl: true,
+    nav: false,
+    items: 1,
+    dots: false,
+  });
   $(".brand-active").owlCarousel({
     loop: true,
     margin: 50,
@@ -79,11 +87,6 @@
 })(jQuery);
 
 $(document).ready(function () {
-  // scroll up
-  $(function () {
-    $.scrollUp();
-  });
-
   // preloader
   $("#preloader").fadeOut(500);
 });

@@ -106,11 +106,21 @@
                   <span class="color-theme2">בשילוב כלי AI</span>
                 </h1>
                 <div class="buttons">
-                  <a href="#" class="default-button">
+                  <a
+                    href="#"
+                    class="default-button"
+                    data-bs-toggle="modal"
+                    data-bs-target="#more-modal"
+                  >
                     <span class="txt">לבדיקת התאמה ופרטים</span>
                     <img src="images/button-arrow.svg" alt="" class="arrow" />
                   </a>
-                  <a href="#" class="default-button default-button--border">
+                  <a
+                    href="#"
+                    data-bs-toggle="modal"
+                    data-bs-target="#text-book-modal"
+                    class="default-button default-button--border"
+                  >
                     להורדת תוכנית הלימודים
                   </a>
                 </div>
@@ -441,20 +451,45 @@
         <!-- why-learn-section-end -->
 
         <!-- testimoinial-section -->
-        <section class="testimionial-section">
+        <section class="testimonial-section">
           <div class="container">
             <div class="testimonial-section__inner">
               <div
                 class="testimonial-section__title sec-title cont-blk cont-blk--center"
               >
-                <h3 class="h3 mb-0">מה אומרים בוגרי המסלול?</h3>
+                <h2 class="h2 mb-0">מה אומרים בוגרי המסלול?</h2>
               </div>
 
               <div
                 class="testimonial-slider testimonial-slider-active owl-carousel"
               >
                 <div class="testimonial-slide">
-                  <img src="images/" alt="" class="slide-img" />
+                  <img
+                    src="images/testimonial-slide-1.png"
+                    alt=""
+                    class="slide-img"
+                  />
+                </div>
+                <div class="testimonial-slide">
+                  <img
+                    src="images/testimonial-slide-1.png"
+                    alt=""
+                    class="slide-img"
+                  />
+                </div>
+                <div class="testimonial-slide">
+                  <img
+                    src="images/testimonial-slide-1.png"
+                    alt=""
+                    class="slide-img"
+                  />
+                </div>
+                <div class="testimonial-slide">
+                  <img
+                    src="images/testimonial-slide-1.png"
+                    alt=""
+                    class="slide-img"
+                  />
                 </div>
               </div>
             </div>
@@ -465,12 +500,12 @@
         <!-- contact-us-section -->
         <section class="contact-us-section bg-theme2">
           <div class="container">
-            <div class="contact-us-section__inne">
+            <div class="contact-us-section__inner">
               <div
                 class="contact-us-section__title sec-title cont-blk cont-blk--center"
               >
                 <h3 class="h3">רוצים לשמוע עוד?</h3>
-                <p>
+                <p class="h4">
                   יועצי הלימודים של HackerU יבדקו ביחד איתך את ההתאמה שלך לקורס
                 </p>
               </div>
@@ -520,8 +555,13 @@
                 </div>
                 <div class="contact-form__bottom">
                   <p>
-                    אני מאשר/ת קבלת עדכונים ומבצעים מהאקריו בכפוף לתקנון מדיניות
-                    פרטיות משתמשים.
+                    <input type="checkbox" class="checkbox-sm ms-1" />
+                    <span class="txt"
+                      >אני מאשר/ת קבלת עדכונים ומבצעים מהאקריו בכפוף לתקנון
+                      <span class="underline">
+                        מדיניות פרטיות משתמשים.</span
+                      ></span
+                    >
                   </p>
                 </div>
               </div>
@@ -531,19 +571,27 @@
         <!-- contact-us-section-end -->
 
         <!-- syllabus-section -->
-        <section class="syllabus-section">
+        <section class="syllabus-section light-bg section-in-shadow">
+          <img
+            src="images/syllabus-top-img.png"
+            alt=""
+            class="syllabus-top-img"
+          />
           <div class="container">
             <div class="syllabus-section__inner">
               <!-- syllabus__module -->
-              <div class="syllabuys__module__row">
-                <div class="col-lg-6">
+              <div class="syllabus__module__row row">
+                <div class="col-lg-8">
                   <div class="syllabus__module cont-blk">
                     <h3 class="h3">מה לומדים בקורס?</h3>
-                    <div class="row">
+                    <div class="row align-self-stretch">
                       <div class="col-md-6">
                         <ul class="plus-ul">
                           <li>חשיבה ותכנון משחק</li>
-                          <li>תוכנות תלת מימד Maya, Zbrush, Blender</li>
+                          <li>
+                            תוכנות תלת מימד <br />
+                            Maya, Zbrush, Blender
+                          </li>
                           <li>Unreal Engine</li>
                           <li>Unity</li>
                         </ul>
@@ -556,29 +604,42 @@
                         </ul>
                       </div>
                     </div>
+                    <div class="bottom-buttons">
+                      <a href="#" class="default-button">
+                        <span class="txt">להורדת תוכנית הלימודים המלאה</span>
+                        <img
+                          src="images/button-arrow.svg"
+                          alt=""
+                          class="arrow"
+                        />
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
               <!-- syllabus__module-end -->
 
               <!-- syllabus-content-row -->
-              <div class="syllabus-content-row row">
-                <div class="col-lg-6">
-                  <div class="syllabus-content cont-blk">
-                    <h3 class="mb-0 color-theme2">שעות והיקף לימוד</h3>
-                    <p>
-                      שלב מיון (20 שעות אקדמיות) + קורס מורחב (325 שעות
-                      אקדמיות) 
-                    </p>
-                  </div>
-                </div>
-                <div class="col-lg-6">
+              <div class="syllabus-content-row row align-items-center">
+                <div class="col-lg-5">
                   <div class="syllabus-content-image">
                     <img
                       src="images/syllabus-content-img.png"
                       alt=""
                       class="img"
                     />
+                  </div>
+                </div>
+                <div class="col-lg-7">
+                  <div class="syllabus-content cont-blk">
+                    <h3 class="mb-0 h3 color-theme2">שעות והיקף לימוד</h3>
+                    <p class="h5">
+                      שלב מיון (20 שעות אקדמיות) + קורס מורחב (325 שעות
+                      אקדמיות) 
+                      <br />
+                      <span class="color-theme2 fw-700"> במתכונת אונליין</span>
+                      במסלול ערב, הנמשך כ-9 חודשים.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -595,8 +656,8 @@
               <div
                 class="one-section__title sec-title cont-blk cont-blk--center"
               >
-                <h3 class="h3 h3-b">One Stop Shop</h3>
-                <h4 class="fw-400 st-h4">
+                <h3 class="h3 h3-b mb-2 pb-1">One Stop Shop</h3>
+                <h4 class="fw-400 h4-b st-h4">
                   אצלנו תקבלו את המסלול ההכשרה המקיף והמקצועי ביותר, פלוס!
                 </h4>
               </div>
@@ -606,7 +667,10 @@
                 <div class="one-number_item">
                   <div class="number">01</div>
                   <div class="title">
-                    <p class="mb-0">ייעוץ טלפוני והכוונה</p>
+                    <p class="mb-0">
+                      ייעוץ טלפוני <br />
+                      והכוונה
+                    </p>
                   </div>
                   <div class="one-popup">
                     <div class="one-popup-title">
@@ -630,7 +694,10 @@
                 <div class="one-number_item">
                   <div class="number">02</div>
                   <div class="title">
-                    <p class="mb-0">תהליך אבחון + ריאיון אישי</p>
+                    <p class="mb-0">
+                      תהליך אבחון + <br />
+                      ריאיון אישי
+                    </p>
                   </div>
                   <div class="one-popup">
                     <div class="one-popup-title">
@@ -678,7 +745,10 @@
                 <div class="one-number_item">
                   <div class="number">04</div>
                   <div class="title">
-                    <p class="mb-0">הגשת פרויקט ראשוני</p>
+                    <p class="mb-0">
+                      הגשת פרויקט <br />
+                      ראשוני
+                    </p>
                   </div>
                   <div class="one-popup">
                     <div class="one-popup-title">
@@ -702,7 +772,10 @@
                 <div class="one-number_item">
                   <div class="number">05</div>
                   <div class="title">
-                    <p class="mb-0">חוות דעת על התאמה</p>
+                    <p class="mb-0">
+                      חוות דעת על <br />
+                      התאמה
+                    </p>
                   </div>
                   <div class="one-popup">
                     <div class="one-popup-title">
@@ -750,7 +823,10 @@
                 <div class="one-number_item">
                   <div class="number">07</div>
                   <div class="title">
-                    <p class="mb-0">הגשת פרויקטגמר</p>
+                    <p class="mb-0">
+                      הגשת פרויקט <br />
+                      גמר
+                    </p>
                   </div>
                   <div class="one-popup">
                     <div class="one-popup-title">
@@ -779,6 +855,186 @@
           </div>
         </section>
         <!-- one-section-end -->
+
+        <!-- Modal -->
+        <div
+          class="modal fade smm-modal"
+          id="text-book-modal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content border-0 bg-transparent">
+              <div class="smm-modal-content">
+                <a href="#" data-bs-dismiss="modal" class="modal-close">
+                  <i class="fal fa-times"></i>
+                </a>
+                <img
+                  src="images/smm-modal-shape.svg"
+                  alt=""
+                  class="modal-tp-shape"
+                />
+                <div class="smm-modal__title">
+                  <h3 class="mb-0">
+                    סילבוס קורס שיווק
+                    <br />
+                    דיגיטלי-מאסטר
+                    <br />
+                    בשיווק ופרסום דיגיטלי
+                  </h3>
+                </div>
+                <div class="modal-form">
+                  <div class="modal-form__main row">
+                    <div class="col-12">
+                      <div class="single-input-x">
+                        <div class="input-x-outer">
+                          <input
+                            type="text"
+                            class="input-x"
+                            placeholder="*השם שלך"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <div class="single-input-x">
+                        <div class="input-x-outer">
+                          <input
+                            type="text"
+                            class="input-x"
+                            placeholder="*המספר שלך"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <div class="single-input-x">
+                        <div class="input-x-outer">
+                          <input
+                            type="text"
+                            class="input-x"
+                            placeholder="המייל שלך"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="modal-form__bottom">
+                    <label>
+                      <input type="checkbox" class="checkbox checkbox-sm" />
+                      <span class="txt fw-600"
+                        >יש לי מספר שאלות, אשמח אם נציג/ה יחזרו אליי</span
+                      >
+                    </label>
+                    <label>
+                      <input type="checkbox" class="checkbox checkbox-sm" />
+                      <span class="txt"
+                        >אני מאשר/ת קבלת דיוורים ישירים ודברי פרסומות מ-HackerU
+                        בכפוף למדיניות הגנת הפרטיות
+                      </span>
+                    </label>
+                    <p>
+                      <a class="underline fw-600" href="#"
+                        >מדיניות הגנת הפרטיות</a
+                      >
+                    </p>
+                    <a
+                      data-bs-dismiss="modal"
+                      href="#"
+                      class="default-button modal-submit-button"
+                      >שלחו לי</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal -->
+        <div
+          class="modal fade smm-modal"
+          id="more-modal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content border-0 bg-transparent">
+              <div class="smm-modal-content">
+                <a href="#" data-bs-dismiss="modal" class="modal-close">
+                  <i class="fal fa-times"></i>
+                </a>
+                <img
+                  src="images/smm-modal-shape.svg"
+                  alt=""
+                  class="modal-tp-shape"
+                />
+                <div class="smm-modal__title">
+                  <h3 class="mb-0">רוצים לשמוע עוד?</h3>
+                </div>
+                <div class="modal-form">
+                  <div class="modal-form__main row">
+                    <div class="col-12">
+                      <div class="single-input-x">
+                        <div class="input-x-outer">
+                          <input
+                            type="text"
+                            class="input-x"
+                            placeholder="*השם שלך"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <div class="single-input-x">
+                        <div class="input-x-outer">
+                          <input
+                            type="text"
+                            class="input-x"
+                            placeholder="*המספר שלך"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <div class="single-input-x">
+                        <div class="input-x-outer">
+                          <input
+                            type="text"
+                            class="input-x"
+                            placeholder="המייל שלך"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="modal-form__bottom">
+                    <label>
+                      <input type="checkbox" class="checkbox checkbox-sm" />
+                      <span class="txt"
+                        >אני מאשר/ת קבלת דיוורים ישירים ודברי פרסומות מ-HackerU
+                        בכפוף למדיניות הגנת הפרטיות
+                      </span>
+                    </label>
+                    <p>
+                      <a class="underline fw-600" href="#"
+                        >מדיניות הגנת הפרטיות</a
+                      >
+                    </p>
+                    <a
+                      data-bs-dismiss="modal"
+                      href="#"
+                      class="default-button modal-submit-button"
+                      >שלח טופס</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </main>
       <!-- main end -->
 
