@@ -49,7 +49,7 @@
 }
 body {
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1.3;
   background-color: #fff;
   font-family: var(--simplerPro_HLAR);
   color: #131316;
@@ -135,7 +135,18 @@ p:last-child{
 
 /* ---common--- */
 .h3 {
-
+  font-size: 40px;
+  line-height: 1.09;
+  margin: 0 0 14px;
+}
+.h4 {
+  font-size: 25px;
+  font-weight: 400;
+}
+.h5 {
+  font-size: 20px;
+  line-height: 1.3;
+  font-weight: 400;
 }
 .cont-blk {
   display: flex;
@@ -145,6 +156,14 @@ p:last-child{
 .cont-blk--center {
   align-items: center;
   text-align: center;
+}
+.cont-blk .bottom-buttons {
+  gap: 27px;
+  margin-top: 30px;
+  display: flex;
+}
+.sec-title {
+  margin-bottom: 70px;
 }
 
 .light-bg {
@@ -444,9 +463,122 @@ p:last-child{
 }
 .st-item__content h4 {
   font-size: 25px;
+  margin: 0 0 5px;
 }
 .st-item__content p {
   font-size: 20px;
+  line-height: 1.3;
   font-weight: 300;
 }
 /* ---hero-section---end */
+
+
+/* ---about-us-section--- */
+.about-us-section {
+  position: relative;
+}
+.about-us-section__inner {
+  padding: 0 9%;
+}
+
+.about-brand-row {
+  padding-top: 110px;
+}
+.about-brand__content {
+  padding-left: 30px;
+}
+.about-brands {
+
+}
+.about-brands .stack-img {
+  width: 100%;
+}
+
+.about-us-row {
+  margin-top: 172px;
+  position: relative;
+}
+.about-us-spc-img {
+  width: 772px;
+  right: -460px;
+  position: absolute;
+  bottom: 0;
+}
+.about-us-content {
+  padding-bottom: 50px;
+}
+/* ---about-us-section---end */
+
+
+
+/* ---why-learn-section--- */
+.why-learn-section {
+  padding: 80px  0 130px;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.15) inset;
+  position: relative;
+  z-index: 1;
+}
+.learn-top-right-shape {
+  top: 96px;
+  right: 135px;
+  width: 135px;
+  position: absolute;
+  z-index: -1;
+}
+.learn-bottom-left-shape {
+  bottom: 102px;
+  left: 102px;
+  width: 166px;
+  position: absolute;
+  z-index: -1;
+}
+.why-learn-section__inner {
+  padding: 0 7%;
+}
+.learn-bottom-left-shape {
+
+}
+.why-learn-section__title {
+
+}
+
+.st-content--learn {
+  --bs-gutter-x: 70px;
+  --bs-gutter-y: 48px;
+}
+.st-item--learn {
+
+}
+.st-item--learn .st-item__content h4 {
+  font-weight: 600;
+  line-height: 1.05;
+  color: #2E353A;
+}
+.st-item--learn .st-item__content p {
+  font-weight: 400;
+  color: #2E353A;
+}
+/* ---why-learn-section---end */
+
+
+/* ---testimonial-section--- */
+.testimonial-section {
+  
+}
+.testimonial-section__inner {
+  
+}
+.testimonial-section__title {
+  
+}
+
+.testimonial-slider {
+
+}
+.testimonial-slide {
+
+}
+.testimonial-slide .slide-img {
+
+}
+/* ---testimonial-section---end */
