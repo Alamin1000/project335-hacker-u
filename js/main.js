@@ -26,7 +26,7 @@
 
   // owl-carousel
   $(".testimonial-slider-active").owlCarousel({
-    loop: false,
+    loop: true,
     margin: 0,
     rtl: true,
     nav: false,

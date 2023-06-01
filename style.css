@@ -474,7 +474,7 @@ p:last-child{
 	transition: 0.3s;
 }
 .st-item:hover .outline {
-	transform: translate(-50%,-50%) rotate(-30deg);
+	transform: translate(-50%,-50%) rotate(30deg);
 }
 .st-item__content {
 
@@ -717,6 +717,9 @@ p:last-child{
   display: block;
   background: var(--theme__color1);
 }
+.submit {
+  cursor: pointer;
+}
 /* ---contact-us-section---end */
 
 
@@ -840,3 +843,227 @@ p:last-child{
   display: none;
 }
 /* ---one-section---end */
+
+
+
+/* ---plus-section--- */
+.plus-section {
+  padding: 30px 0 50px;
+  position: relative;
+}
+.plus-shape-left {
+  bottom: 100px;
+  width: 230px;
+  position: absolute;
+  left: 0;
+}
+.plus-shape-right {
+  width: 299px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.plus-section__inner {
+  padding: 0 10%;
+}
+.plus-section__title {
+  margin: 0 0 10px;
+}
+.plus-section__title .hack_plus-img {
+  width: 518px;
+  max-width: 100%;
+}
+
+.hacker-plus-box {
+  padding: 38px 50px 42px 30px;
+  background: #FFFFFF;
+  border: 1px solid #131316;
+  border-radius: 20px 0px 20px 20px;
+}
+.dot-ul {
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+}
+.dot-ul li {
+  font-size: 20px;
+  padding-right: 17px;
+  line-height: 1.23;
+  position: relative;
+}
+.dot-ul li::before {
+  content: '';
+  height: 8px;
+  width: 8px;
+  display: block;
+  background: var(--theme__color1);
+  border-radius: 50%;
+  position: absolute;
+  top: 7px;
+  right: 0;
+}
+.dot-ul--dot-theme1-light li::before {
+  background: var(--theme__color1__light);
+}
+
+.job-faqs {
+  width: 88%;
+  margin: 95px auto 0;
+}
+.job-faqs-title {
+  margin: 0 0 38px;
+}
+.faqs-wrapper {
+
+}
+.single-faq {
+  margin-bottom: 17px;
+}
+.single-faq__title {
+  padding: 9px 14px;
+  gap: 20px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+}
+.single-faq__title h4 {
+  font-weight: 600;
+}
+.single-faq__title .ind-icon {
+  font-size: 20px;
+  height: 38px;
+  width: 38px;
+  display: block;
+  border: 1px solid #131316;
+  order: -1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+.single-faq__title:not(.collapsed) .ind-icon {
+  background: var(--theme__color2);
+  color: #fff;
+  border-color: transparent;
+  transform: rotate(180deg);
+}
+.single-faq__title .ind-icon::after {
+  content: '\f067';
+  font-family: "Font Awesome 5 Pro";
+  display: block;
+  font-weight: 300;
+  transition: 0.3s;
+}
+.single-faq__title:not(.collapsed) .ind-icon::after {
+  content: '\f068';
+}
+.single-faq__body {
+
+}
+.single-faq__body__inner {
+  padding: 32px 72px;
+}
+/* ---plus-section---end */
+
+
+
+/* ---faq-section--- */
+.faq-section {
+
+}
+.faq-section__row {
+  display: flex;
+}
+.faq-section__title-side {
+  padding: 32px;
+  height: 661px;
+  flex-grow: 1;
+  background: var(--theme__color2);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+}
+.faq-section__title-side  .shape {
+  top: 170px;
+  right: 0;
+  position: absolute;
+}
+.faq-section__faq-side {
+  padding: 40px;
+  width: calc(50vw + 275px);
+  display: flex;
+  align-items: center;
+}
+
+.common-faqs {
+  max-width: 870px;
+  width: 100%;
+}
+/* ---faq-section---end */
+
+
+
+/* ---footer-section--- */
+.footer-section {
+
+}
+.footer-top {
+  padding: 75px 0 50px;
+  background: #131316;
+  color: #fff;
+}
+.footer-top__inner {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-logo {
+  display: flex;
+  width: 278px;
+}
+.footer-logo img {
+
+}
+.footer-menu {
+
+}
+.footer-menu a {
+  font-size: 20px;
+}
+.footer-menu .big {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.footer-bottom {
+  padding: 22px 0 20px;
+  border-top: 1px solid rgba(216, 217, 212, 0.308);
+  background: #27272A;
+  color: #fff;
+}
+.footer-bottom__inner {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.footer-bottom .by {
+  font-size: 21px;
+  gap: 8px;
+  display: flex;
+  align-items: flex-end;
+  line-height: 1;
+}
+.footer-bottom .by .trive {
+  margin-bottom: 5px;
+}
+.footer-bottom a {
+  font-size: 18px;
+  font-weight: 600;
+}
+/* ---footer-section---end */
