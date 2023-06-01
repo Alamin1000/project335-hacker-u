@@ -29,29 +29,17 @@
     <div class="main-wrap">
       <!-- offcanvas-start -->
       <div class="offcanvas-menu">
-        <ul class="offmenu" id="menuParent">
-          <a href="#" class="offcanvas-close"><i class="fa fa-times"></i></a>
-          <li class="active"><a href="#">HOME</a></li>
-          <li><a href="#">ABOUT US</a></li>
-          <li class="dropdown">
-            <a href="#" data-bs-toggle="collapse" data-bs-target="#drop-menu1"
-              >OUR HORSES</a
-            >
-            <div
-              class="dropdown-menu-custom collapse"
-              id="drop-menu1"
-              data-bs-parent="#menuParent"
-            >
-              <ul>
-                <li><a href="#">YEARLINGS</a></li>
-                <li><a href="#">2 YEAR OLDS</a></li>
-                <li><a href="#">3 YEAR OLD PLUS</a></li>
-              </ul>
-            </div>
-          </li>
-          <li><a href="#">LATEST NEWS</a></li>
-          <li><a href="#">CONTACT & FIND US</a></li>
-        </ul>
+        <div class="offmenu" id="menuParent">
+          <a href="#" class="offcanvas-close"><i class="fal fa-times"></i></a>
+          <ul class="mobile-menu">
+            <li><a class="active" href="#">איך זה עובד?</a></li>
+            <li><a href="#">תכנית הלימודים</a></li>
+            <li><a href="#">שעות והיקף לימוד</a></li>
+            <li><a href="#">בוגרים מספרים</a></li>
+            <li><a href="#">תפקידים לבוגרי הקורס</a></li>
+            <li><a href="#">שאלות תשובות</a></li>
+          </ul>
+        </div>
       </div>
       <div class="offcanvas-overlay"></div>
       <!-- offcanvas-start-end -->
@@ -64,7 +52,7 @@
               <a href="index.html" class="header__logo">
                 <img src="images/logo.svg" alt="" />
               </a>
-              <div class="main-menu">
+              <div class="main-menu d-xl-block d-none">
                 <ul>
                   <li><a class="active" href="#">איך זה עובד?</a></li>
                   <li><a href="#">תכנית הלימודים</a></li>
@@ -74,6 +62,9 @@
                   <li><a href="#">שאלות תשובות</a></li>
                 </ul>
               </div>
+              <a href="#" class="offcanvas-open d-xl-none">
+                <i class="far fa-bars"></i>
+              </a>
             </div>
           </div>
         </div>
@@ -84,111 +75,129 @@
       <main>
         <!-- hero-section -->
         <section class="hero-section light-bg">
-          <div class="hero-left-shp">
-            <img src="images/hero-left-shp.png" alt="" />
-          </div>
-          <div class="hero-right-shp">
-            <img src="images/hero-right-shp.png" alt="" />
-          </div>
-          <div class="container">
-            <div class="hero-section__inner">
-              <div class="hero__content">
-                <div class="icon">
-                  <img class="img" src="images/hero-icon.png" alt="" />
-                  <img
-                    class="outline"
-                    src="images/hero-icon-outline.png"
-                    alt=""
-                  />
-                </div>
-                <h1 class="h1">
-                  קורס גיימינג ופיתוח משחקים  <br />
-                  <span class="color-theme2">בשילוב כלי AI</span>
-                </h1>
-                <div class="buttons">
-                  <a
-                    href="#"
-                    class="default-button"
-                    data-bs-toggle="modal"
-                    data-bs-target="#more-modal"
-                  >
-                    <span class="txt">לבדיקת התאמה ופרטים</span>
-                    <img src="images/button-arrow.svg" alt="" class="arrow" />
-                  </a>
-                  <a
-                    href="#"
-                    data-bs-toggle="modal"
-                    data-bs-target="#text-book-modal"
-                    class="default-button default-button--border"
-                  >
-                    להורדת תוכנית הלימודים
-                  </a>
-                </div>
-              </div>
-
-              <div class="st-content st-content--hero row">
-                <div class="col-lg-3">
-                  <div class="st-item st-item--hero">
-                    <div class="st-item__icon">
-                      <img src="images/st-hero-icon-4.png" alt="" class="img" />
-                      <img
-                        src="images/st-icon-outline.png"
-                        alt=""
-                        class="outline"
-                      />
-                    </div>
-                    <div class="st-item__content">
-                      <h4>עבודה עם כלי AI מתקדמים</h4>
-                      <p>תתנסו ותלמדו לעבוד עם הכלים הכי חדשניים</p>
-                    </div>
+          <div class="hero-section__in">
+            <div class="hero-left-shp">
+              <img src="images/hero-left-shp.png" alt="" />
+            </div>
+            <div class="hero-right-shp">
+              <img src="images/hero-right-shp.png" alt="" />
+            </div>
+            <div class="container">
+              <div class="hero-section__inner">
+                <div class="hero__content">
+                  <div class="icon">
+                    <img class="img" src="images/hero-icon.svg" alt="" />
+                    <img
+                      class="outline"
+                      src="images/hero-icon-outline.png"
+                      alt=""
+                    />
                   </div>
-                </div>
-                <div class="col-lg-3">
-                  <div class="st-item st-item--hero">
-                    <div class="st-item__icon">
-                      <img src="images/st-hero-icon-3.png" alt="" class="img" />
-                      <img
-                        src="images/st-icon-outline.png"
-                        alt=""
-                        class="outline"
-                      />
-                    </div>
-                    <div class="st-item__content">
-                      <h4>הכשרה פרקטית ומקיפה</h4>
-                      <p>לימודי ערב למשך 9 חודשים מתאים לאנשים שעובדים </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-3">
-                  <div class="st-item st-item--hero">
-                    <div class="st-item__icon">
-                      <img src="images/st-hero-icon-2.png" alt="" class="img" />
-                      <img
-                        src="images/st-icon-outline.png"
-                        alt=""
-                        class="outline"
-                      />
-                    </div>
-                    <div class="st-item__content">
-                      <h4>מתאים לחסרי רקע </h4>
-                      <p>המסלול מתאים גם לחסרי רקע או ניסיון קודם </p>
-                    </div>
+                  <h1 class="h1">
+                    קורס גיימינג ופיתוח משחקים  <br />
+                    <span class="color-theme2">בשילוב כלי AI</span>
+                  </h1>
+                  <div class="buttons">
+                    <a
+                      href="#"
+                      class="default-button"
+                      data-bs-toggle="modal"
+                      data-bs-target="#more-modal"
+                    >
+                      <span class="txt">לבדיקת התאמה ופרטים</span>
+                      <img src="images/button-arrow.svg" alt="" class="arrow" />
+                    </a>
+                    <a
+                      href="#"
+                      data-bs-toggle="modal"
+                      data-bs-target="#text-book-modal"
+                      class="default-button default-button--border"
+                    >
+                      להורדת תוכנית הלימודים
+                    </a>
                   </div>
                 </div>
 
-                <div class="col-lg-3">
-                  <div class="st-item st-item--hero">
-                    <div class="st-item__icon">
-                      <img src="images/st-hero-icon-1.png" alt="" class="img" />
-                      <img
-                        src="images/st-icon-outline.png"
-                        alt=""
-                        class="outline"
-                      />
+                <div class="st-content st-content--hero row">
+                  <div class="col-lg-3">
+                    <div class="st-item st-item--hero">
+                      <div class="st-item__icon">
+                        <img
+                          src="images/st-hero-icon-4.svg"
+                          alt=""
+                          class="img"
+                        />
+                        <img
+                          src="images/st-icon-outline.png"
+                          alt=""
+                          class="outline"
+                        />
+                      </div>
+                      <div class="st-item__content">
+                        <h4>עבודה עם כלי AI מתקדמים</h4>
+                        <p>תתנסו ותלמדו לעבוד עם הכלים הכי חדשניים</p>
+                      </div>
                     </div>
-                    <div class="st-item__content">
-                      <h4>ללא סיכון כספי</h4>
-                      <p>שלב מיון הנותן טעימה מהתחום ללא סיכון כספי </p>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="st-item st-item--hero">
+                      <div class="st-item__icon">
+                        <img
+                          src="images/st-hero-icon-3.svg"
+                          alt=""
+                          class="img"
+                        />
+                        <img
+                          src="images/st-icon-outline.png"
+                          alt=""
+                          class="outline"
+                        />
+                      </div>
+                      <div class="st-item__content">
+                        <h4>הכשרה פרקטית ומקיפה</h4>
+                        <p>לימודי ערב למשך 9 חודשים מתאים לאנשים שעובדים </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="st-item st-item--hero">
+                      <div class="st-item__icon">
+                        <img
+                          src="images/st-hero-icon-2.svg"
+                          alt=""
+                          class="img"
+                        />
+                        <img
+                          src="images/st-icon-outline.png"
+                          alt=""
+                          class="outline"
+                        />
+                      </div>
+                      <div class="st-item__content">
+                        <h4>מתאים לחסרי רקע </h4>
+                        <p>המסלול מתאים גם לחסרי רקע או ניסיון קודם </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-3">
+                    <div class="st-item st-item--hero">
+                      <div class="st-item__icon">
+                        <img
+                          src="images/st-hero-icon-1.svg"
+                          alt=""
+                          class="img"
+                        />
+                        <img
+                          src="images/st-icon-outline.png"
+                          alt=""
+                          class="outline"
+                        />
+                      </div>
+                      <div class="st-item__content">
+                        <h4>ללא סיכון כספי</h4>
+                        <p>שלב מיון הנותן טעימה מהתחום ללא סיכון כספי </p>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -203,7 +212,9 @@
           <div class="container">
             <div class="about-us-section__inner">
               <!-- about-brand-row -->
-              <div class="about-brand-row row justify-content-between">
+              <div
+                class="about-brand-row row justify-content-between gy-lg-0 gy-5"
+              >
                 <div class="col-lg-4">
                   <div class="about-brand__content cont-blk">
                     <h3 class="h3 color-theme1">הצלחה בינלאומית</h3>
@@ -303,7 +314,7 @@
                   <div class="st-item st-item--learn">
                     <div class="st-item__icon">
                       <img
-                        src="images/st-learn-icon-3.png"
+                        src="images/st-learn-icon-3.svg"
                         alt=""
                         class="img"
                       />
@@ -327,7 +338,7 @@
                   <div class="st-item st-item--learn">
                     <div class="st-item__icon">
                       <img
-                        src="images/st-learn-icon-2.png"
+                        src="images/st-learn-icon-2.svg"
                         alt=""
                         class="img"
                       />
@@ -351,7 +362,7 @@
                   <div class="st-item st-item--learn">
                     <div class="st-item__icon">
                       <img
-                        src="images/st-learn-icon-1.png"
+                        src="images/st-learn-icon-1.svg"
                         alt=""
                         class="img"
                       />
@@ -377,7 +388,7 @@
                   <div class="st-item st-item--learn">
                     <div class="st-item__icon">
                       <img
-                        src="images/st-learn-icon-6.png"
+                        src="images/st-learn-icon-6.svg"
                         alt=""
                         class="img"
                       />
@@ -401,7 +412,7 @@
                   <div class="st-item st-item--learn">
                     <div class="st-item__icon">
                       <img
-                        src="images/st-learn-icon-5.png"
+                        src="images/st-learn-icon-5.svg"
                         alt=""
                         class="img"
                       />
@@ -425,7 +436,7 @@
                   <div class="st-item st-item--learn">
                     <div class="st-item__icon">
                       <img
-                        src="images/st-learn-icon-4.png"
+                        src="images/st-learn-icon-4.svg"
                         alt=""
                         class="img"
                       />
@@ -511,7 +522,7 @@
               </div>
 
               <div class="contact-form">
-                <div class="contact-form__main row">
+                <div class="contact-form__main row gy-4">
                   <div class="col-lg-3 col-md-6">
                     <div class="single-input-x">
                       <div class="input-x-outer">
@@ -620,8 +631,10 @@
               <!-- syllabus__module-end -->
 
               <!-- syllabus-content-row -->
-              <div class="syllabus-content-row row align-items-center">
-                <div class="col-lg-5">
+              <div
+                class="syllabus-content-row row align-items-center gy-lg-0 gy-4"
+              >
+                <div class="col-lg-5 order-lg-0 order-last">
                   <div class="syllabus-content-image">
                     <img
                       src="images/syllabus-content-img.png"
@@ -653,9 +666,7 @@
         <section class="one-section">
           <div class="container">
             <div class="one-section__inner">
-              <div
-                class="one-section__title sec-title cont-blk cont-blk--center"
-              >
+              <div class="one-section__title cont-blk cont-blk--center">
                 <h3 class="h3 h3-b mb-2 pb-1">One Stop Shop</h3>
                 <h4 class="fw-400 h4-b st-h4">
                   אצלנו תקבלו את המסלול ההכשרה המקיף והמקצועי ביותר, פלוס!
@@ -664,18 +675,18 @@
 
               <div class="one-numbers">
                 <!-- single -->
-                <div class="one-number_item">
-                  <div class="number">01</div>
+                <div class="one-number_item dropdown dropdown-center">
+                  <a href="#" class="number" data-bs-toggle="dropdown">01</a>
                   <div class="title">
                     <p class="mb-0">
                       ייעוץ טלפוני <br />
                       והכוונה
                     </p>
                   </div>
-                  <div class="one-popup">
+                  <div class="one-popup dropdown-menu dropdown-menu-end">
                     <div class="one-popup-title">
                       <h4>שיחת ייעוץ טלפוני והכוונה</h4>
-                      <a href="#" class="close">
+                      <a href="javascript:void(0)" class="close">
                         <i class="fal fa-times"></i>
                       </a>
                     </div>
@@ -691,18 +702,18 @@
                 </div>
                 <!-- single-end -->
                 <!-- single -->
-                <div class="one-number_item">
-                  <div class="number">02</div>
+                <div class="one-number_item dropdown dropdown-center">
+                  <a href="#" class="number" data-bs-toggle="dropdown">02</a>
                   <div class="title">
                     <p class="mb-0">
                       תהליך אבחון + <br />
                       ריאיון אישי
                     </p>
                   </div>
-                  <div class="one-popup">
+                  <div class="one-popup dropdown-menu dropdown-menu-end">
                     <div class="one-popup-title">
                       <h4>שיחת ייעוץ טלפוני והכוונה</h4>
-                      <a href="#" class="close">
+                      <a href="javascript:void(0)" class="close">
                         <i class="fal fa-times"></i>
                       </a>
                     </div>
@@ -718,15 +729,15 @@
                 </div>
                 <!-- single-end -->
                 <!-- single -->
-                <div class="one-number_item">
-                  <div class="number">03</div>
+                <div class="one-number_item dropdown dropdown-center">
+                  <a href="#" class="number" data-bs-toggle="dropdown">03</a>
                   <div class="title">
                     <p class="mb-0">קורס מיון</p>
                   </div>
-                  <div class="one-popup">
+                  <div class="one-popup dropdown-menu dropdown-menu-end">
                     <div class="one-popup-title">
                       <h4>שיחת ייעוץ טלפוני והכוונה</h4>
-                      <a href="#" class="close">
+                      <a href="javascript:void(0)" class="close">
                         <i class="fal fa-times"></i>
                       </a>
                     </div>
@@ -742,18 +753,18 @@
                 </div>
                 <!-- single-end -->
                 <!-- single -->
-                <div class="one-number_item">
-                  <div class="number">04</div>
+                <div class="one-number_item dropdown dropdown-center">
+                  <a href="#" class="number" data-bs-toggle="dropdown">04</a>
                   <div class="title">
                     <p class="mb-0">
                       הגשת פרויקט <br />
                       ראשוני
                     </p>
                   </div>
-                  <div class="one-popup">
+                  <div class="one-popup dropdown-menu dropdown-menu-end">
                     <div class="one-popup-title">
                       <h4>שיחת ייעוץ טלפוני והכוונה</h4>
-                      <a href="#" class="close">
+                      <a href="javascript:void(0)" class="close">
                         <i class="fal fa-times"></i>
                       </a>
                     </div>
@@ -769,18 +780,18 @@
                 </div>
                 <!-- single-end -->
                 <!-- single -->
-                <div class="one-number_item">
-                  <div class="number">05</div>
+                <div class="one-number_item dropdown dropdown-center">
+                  <a href="#" class="number" data-bs-toggle="dropdown">05</a>
                   <div class="title">
                     <p class="mb-0">
                       חוות דעת על <br />
                       התאמה
                     </p>
                   </div>
-                  <div class="one-popup">
+                  <div class="one-popup dropdown-menu dropdown-menu-end">
                     <div class="one-popup-title">
                       <h4>שיחת ייעוץ טלפוני והכוונה</h4>
-                      <a href="#" class="close">
+                      <a href="javascript:void(0)" class="close">
                         <i class="fal fa-times"></i>
                       </a>
                     </div>
@@ -796,15 +807,15 @@
                 </div>
                 <!-- single-end -->
                 <!-- single -->
-                <div class="one-number_item">
-                  <div class="number">06</div>
+                <div class="one-number_item dropdown dropdown-center">
+                  <a href="#" class="number" data-bs-toggle="dropdown">06</a>
                   <div class="title">
                     <p class="mb-0">קורס מורחב</p>
                   </div>
-                  <div class="one-popup">
+                  <div class="one-popup dropdown-menu dropdown-menu-end">
                     <div class="one-popup-title">
                       <h4>שיחת ייעוץ טלפוני והכוונה</h4>
-                      <a href="#" class="close">
+                      <a href="javascript:void(0)" class="close">
                         <i class="fal fa-times"></i>
                       </a>
                     </div>
@@ -820,18 +831,18 @@
                 </div>
                 <!-- single-end -->
                 <!-- single -->
-                <div class="one-number_item">
-                  <div class="number">07</div>
+                <div class="one-number_item dropdown dropdown-center">
+                  <a href="#" class="number" data-bs-toggle="dropdown">07</a>
                   <div class="title">
                     <p class="mb-0">
                       הגשת פרויקט <br />
                       גמר
                     </p>
                   </div>
-                  <div class="one-popup">
+                  <div class="one-popup dropdown-menu dropdown-menu-end">
                     <div class="one-popup-title">
                       <h4>שיחת ייעוץ טלפוני והכוונה</h4>
-                      <a href="#" class="close">
+                      <a href="javascript:void(0)" class="close">
                         <i class="fal fa-times"></i>
                       </a>
                     </div>
@@ -869,7 +880,7 @@
               </div>
 
               <div class="contact-form">
-                <div class="contact-form__main row">
+                <div class="contact-form__main row gy-4">
                   <div class="col-lg-3 col-md-6">
                     <div class="single-input-x">
                       <div class="input-x-outer">
@@ -1249,7 +1260,7 @@
                   מתחם הבורסה, רמת גן, בצמוד לרכבת מרכז</a
                 >
               </div>
-              <a href="index.html" class="footer-logo">
+              <a href="index.html" class="footer-logo order-md-0 order-first">
                 <img src="images/footer-logo.svg" alt="" />
               </a>
             </div>

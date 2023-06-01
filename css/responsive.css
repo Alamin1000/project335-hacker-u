@@ -1,22 +1,474 @@
 
 
-@media (max-width: 1399px) {
- 
+@media (max-width: 1699px) {
+    .main-menu ul li a {
+        font-size: 16px;
+    }
+    .main-menu ul {
+        gap: 30px;
+    }
+    .header__logo {
+        width: 115px;
+        padding: 10px 0 0;
+    }
+    .header-in {
+        padding: 15px 0 10px;
+    }
+
+    .hero-section__in {
+        padding: 110px 0 70px;
+    }
+    .hero-left-shp {
+        top: 73px;
+        width: 380px;
+    }
+    .hero__content .icon {
+        margin: 0 0 22px;
+        height: 60px;
+        width: 60px;
+    }
+    .hero__content .h1 {
+        font-size: 39px;
+        margin: 0 0 20px;
+    }
+    .hero__content .buttons {
+        gap: 20px;
+    }
+    .default-button {
+        font-size: 16px;
+        padding: 7px 15px 5px;
+        min-height: 44px;
+    }
+    .default-button .arrow {
+        margin-left: -5px;
+        width: 33px;
+    }
+    .hero-right-shp {
+        top: 135px;
+        width: 250px;
+    }
+    .hero__content {
+        min-height: 300px;
+        margin-bottom: 45px;
+    }
+    .st-content--hero {
+        --bs-gutter-x: 35px;
+    }
+    .st-item__icon {
+        margin: 0 0 18px;
+        height: 40px;
+        width: 40px;
+        padding: 6px;
+    }
+    .st-item__content h4 {
+        font-size: 20px;
+        margin: 0 0 4px;
+    }
+    .st-item__content p {
+        font-size: 16px;
+    }
+
+
+    .h3 {
+        font-size: 30px;
+        margin: 0 0 10px;
+    }
+    .h4 {
+        font-size: 19px;
+    }
+    .about-brand-row {
+        padding-top: 70px;
+    }
+    .about-us-row {
+        margin-top: 110px;
+    }
+    .h5 {
+        font-size: 16px;
+    }
+    .cont-blk .bottom-buttons {
+        gap: 17px;
+        margin-top: 15px;
+    }
+    .about-us-spc-img {
+        width: 640px;
+        right: -350px;
+    }
+
+
+    .why-learn-section {
+        padding: 60px 0 90px;
+    }
+    .sec-title {
+        margin-bottom: 44px;
+    }
+    .learn-top-right-shape {
+        top: 70px;
+        right: 55px;
+        width: 85px;
+    }
+    .st-content--learn {
+        --bs-gutter-x: 50px;
+        --bs-gutter-y: 35px;
+    }
+    .learn-bottom-left-shape {
+        bottom: 98px;
+        left: 50px;
+        width: 100px;
+    }
+
+    .testimonial-section {
+        padding-top: 50px;
+    }
+    .h2 {
+        font-size: 40px;
+        margin: 0 0 12px;
+    }
+
+
+    .contact-us-section {
+        padding: 50px 0 55px;
+    }
+    .contact-form__bottom p {
+        font-size: 15px;
+    }
+
+    .syllabus__module__row {
+        padding-top: 60px;
+    }
+    .plus-ul li {
+        font-size: 16px;
+        padding-right: 28px;
+    }
+    .plus-ul li::before {
+        height: 16px;
+        width: 16px;
+        top: 2px;
+    }
+    .plus-ul {
+        gap: 12px;
+    }
+
+
+    .syllabus-top-img {
+        top: -2px;
+        left: 100px;
+        width: 280px;
+    }
+    .syllabus-content-row {
+        padding-top: 43px;
+    }
+
+    .one-section {
+        padding: 45px 0 60px;
+    }
+    .h4-b {
+        font-size: 24px;
+    }
+    .one-section__title {
+        margin-bottom: 50px;
+    }
+    .one-number_item .title p {
+        font-size: 16px;
+    }
+    .one-number_item .number {
+        font-size: 32px;
+        height: 90px;
+        width: 90px;
+        padding: 5px 0 0;
+    }
+    .one-number_item {
+        padding: 72px 10px;
+    }
+    .one-number_item .number::after {
+        transform: scale(calc((118 + 28) / 118)) translate(0,-10%);
+    }
+    .one-number_item:nth-child(2n) .number::after {
+        transform: scale(calc((118 + 28) / 118)) rotate(180deg) translate(0,-10%);
+    }
+    .one-number_item .one-popup {
+        padding: 20px 22px 25px;
+        top: 27px !important;
+        width: 430px;
+        border-radius: 9px;
+    }
+    .one-popup-content p {
+        font-size: 15px;
+    }
+    .one-popup-title {
+        margin: 0 0 9px;
+    }
+    .one-section__bottom {
+        margin-top: 40px;
+    }
+
+
+    .plus-section__title .hack_plus-img {
+        width: 300px;
+    }
+    .dot-ul li {
+        font-size: 16px;
+        padding-right: 14px;
+    }
+    .dot-ul li::before {
+        height: 6px;
+        width: 6px;
+        top: 6px;
+    }
+    .dot-ul {
+        gap: 15px;
+    }
+    .hacker-plus-box {
+        padding: 30px 35px 25px 17px;
+        border-radius: 15px 0px 15px 15px;
+    }
+
+
+    .job-faqs-title {
+        margin: 0 0 30px;
+    }
+
+    .single-faq__title .ind-icon {
+        font-size: 15px;
+        height: 32px;
+        width: 32px;
+    }
+    .single-faq__title {
+        padding: 8px 12px;
+        gap: 15px;
+        border-radius: 6px;
+    }
+    .single-faq {
+        margin-bottom: 15px;
+    }
+    .single-faq__body__inner {
+        padding: 26px 55px 20px;
+    }
+    .plus-section {
+        padding: 25px 0 38px;
+    }
+    .plus-shape-left {
+        bottom: 100px;
+        width: 150px;
+    }
+    .plus-shape-right {
+        width: 202px;
+    }
+
+    .faq-section__faq-side {
+        padding: 30px;
+        width: calc(50vw + 200px);
+    }
+    .common-faqs {
+        max-width: 630px;
+    }
+
+    .faq-section__title-side {
+        padding: 25px;
+        height: 520px;
+    }
+    .faq-section__title-side .shape {
+        top: 130px;
+        width: 250px;
+    }
+
+
+    .footer-logo {
+        width: 180px;
+    }
+    .footer-menu a {
+        font-size: 16px;
+    }
+    .footer-menu .big {
+        font-size: 24px;
+    }
+    .footer-top {
+        padding: 45px 0 35px;;
+    }
+    .footer-bottom .by .trive {
+        margin-bottom: 3px;
+        width: 95px;
+    }
+    .footer-bottom .by {
+        font-size: 15px;
+        gap: 7px;
+    }
+    .footer-bottom a {
+        font-size: 15px;
+    }
+
 }
 
 
 @media (max-width: 1199px) {
- 
+    .st-content--hero {
+        --bs-gutter-x: 40px;
+        max-width: 100%;
+    }
+    
+
+    .about-us-section__inner {
+        padding: 0;
+    }
+    .why-learn-section__inner {
+        padding: 0;
+    }
+    .testimonial-section__inner {
+        padding: 0;
+    }
+    .contact-us-section__inner {
+        padding: 0;
+    }
+    .syllabus-section__inner {
+        padding: 0;
+    }
+    .plus-section__inner {
+        padding: 0;
+    }
+    .job-faqs {
+        width: 100%;
+        margin: 65px auto 0;
+        max-width: 830px;
+    }
+    .faq-section__faq-side {
+        width: calc(50vw + 150px);
+    }
+    .common-faqs {
+        max-width: 560px;
+    }
 }
 
 
 @media (max-width: 991px) {
- 
+    .hero__content {
+        min-height: auto;
+        margin-bottom: 40px;
+    }
+
+    .hero-left-shp {
+        top: 73px;
+        width: 310px;
+    }
+    .hero-right-shp {
+        top: 115px;
+        width: 180px;
+    }
+
+    .about-us-spc-img {
+        display: none;
+    }
+
+    .syllabus-top-img {
+        top: -2px;
+        left: 0;
+        width: 150px;
+    }
+    .syllabus-content-image {
+        text-align: center;
+    }
+    .syllabus-content-image .img {
+        width: 60%;
+        margin-right: 0;
+        max-width: initial;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+
+    .faq-section__row {
+        flex-wrap: wrap;
+    }
+    .faq-section__title-side {
+        width: 100%;
+    }
+    .faq-section__title-side {
+        padding: 20px;
+        height: 130px;
+        justify-content: center;
+        z-index: 1;
+    }
+    .faq-section__title-side .shape {
+        top: 30px;
+        width: 190px;
+        z-index: -1;
+    }
+    .common-faqs {
+        margin: 0 auto;
+    }
+    .faq-section__faq-side {
+        justify-content: center;
+        width: 100%;
+    }
 }
 
 
 @media (max-width: 768px) {
  
+    .hero-right-shp {
+        display: none;
+    }
+
+    .hero-left-shp {
+        top: 28px;
+        width: 230px;
+    }
+    .hero__content .h1 {
+        font-size: 28px;
+        margin: 0 0 16px;
+    }
+    .hero__content .buttons {
+        flex-direction: column;
+    }
+    .h3 {
+        font-size: 28px;
+    }
+
+    .cont-blk .bottom-buttons {
+        flex-direction: column;
+    }
+    .learn-top-right-shape {
+        display: none;
+    }
+    .learn-bottom-left-shape {
+        display: none;
+    }
+    .h2 {
+        font-size: 32px;
+    }
+    .syllabus-top-img {
+        width: 100px;
+    }
+
+    .one-numbers {
+        overflow: auto;
+    }
+    .one-number_item .one-popup {
+        position: fixed;
+        top: auto;
+    }
+    .one-number_item .one-popup {
+        width: 320px;
+    }
+
+    .plus-shape-left {
+        display: none;
+    }
+    .plus-shape-right {
+        display: none;
+    }
+    .single-faq__body__inner {
+        padding: 20px 12px 14px;
+    }
+
+
+    .footer-top__inner {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+    }
+    .header-section .container {
+        padding: 0 12px;
+    }
 }
 
 
