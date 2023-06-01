@@ -138,6 +138,9 @@
 .bg-theme1 {
     background: var(--theme__color1) !important;
 }
+.bg-theme1__light {
+    background: var(--theme__color1__light) !important;
+}
 .bg-theme2 {
     background: var(--theme__color2) !important;
 }
@@ -151,6 +154,9 @@
 /* hover--bg */
 .hover-bg-theme1:hover {
     background: var(--theme__color1) !important;
+}
+.hover-bg-theme1__light:hover {
+    background: var(--theme__color1__light) !important;
 }
 .hover-bg-theme2:hover {
     background: var(--theme__color2) !important;
@@ -187,6 +193,9 @@
 }
 .color-theme1 {
     color: var(--theme__color1) !important;
+}
+.color-theme1__light {
+    color: var(--theme__color1__light) !important;
 }
 .color-theme2 {
     color: var(--theme__color2) !important;

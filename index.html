@@ -856,191 +856,584 @@
         </section>
         <!-- one-section-end -->
 
-        <!-- Modal -->
-        <div
-          class="modal fade smm-modal"
-          id="text-book-modal"
-          tabindex="-1"
-          aria-labelledby="exampleModalLabel"
-          aria-hidden="true"
-        >
-          <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content border-0 bg-transparent">
-              <div class="smm-modal-content">
-                <a href="#" data-bs-dismiss="modal" class="modal-close">
-                  <i class="fal fa-times"></i>
-                </a>
-                <img
-                  src="images/smm-modal-shape.svg"
-                  alt=""
-                  class="modal-tp-shape"
-                />
-                <div class="smm-modal__title">
-                  <h3 class="mb-0">
-                    סילבוס קורס שיווק
-                    <br />
-                    דיגיטלי-מאסטר
-                    <br />
-                    בשיווק ופרסום דיגיטלי
-                  </h3>
-                </div>
-                <div class="modal-form">
-                  <div class="modal-form__main row">
-                    <div class="col-12">
-                      <div class="single-input-x">
-                        <div class="input-x-outer">
-                          <input
-                            type="text"
-                            class="input-x"
-                            placeholder="*השם שלך"
-                          />
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-12">
-                      <div class="single-input-x">
-                        <div class="input-x-outer">
-                          <input
-                            type="text"
-                            class="input-x"
-                            placeholder="*המספר שלך"
-                          />
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-12">
-                      <div class="single-input-x">
-                        <div class="input-x-outer">
-                          <input
-                            type="text"
-                            class="input-x"
-                            placeholder="המייל שלך"
-                          />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="modal-form__bottom">
-                    <label>
-                      <input type="checkbox" class="checkbox checkbox-sm" />
-                      <span class="txt fw-600"
-                        >יש לי מספר שאלות, אשמח אם נציג/ה יחזרו אליי</span
-                      >
-                    </label>
-                    <label>
-                      <input type="checkbox" class="checkbox checkbox-sm" />
-                      <span class="txt"
-                        >אני מאשר/ת קבלת דיוורים ישירים ודברי פרסומות מ-HackerU
-                        בכפוף למדיניות הגנת הפרטיות
-                      </span>
-                    </label>
-                    <p>
-                      <a class="underline fw-600" href="#"
-                        >מדיניות הגנת הפרטיות</a
-                      >
-                    </p>
-                    <a
-                      data-bs-dismiss="modal"
-                      href="#"
-                      class="default-button modal-submit-button"
-                      >שלחו לי</a
-                    >
-                  </div>
-                </div>
+        <!-- contact-us-section -->
+        <section class="contact-us-section bg-theme2">
+          <div class="container">
+            <div class="contact-us-section__inner">
+              <div
+                class="contact-us-section__title sec-title cont-blk cont-blk--center"
+              >
+                <h4 class="h4 mb-0">
+                  יועצי הלימודים של HackerU יבדקו ביחד איתך את ההתאמה שלך לקורס
+                </h4>
               </div>
-            </div>
-          </div>
-        </div>
 
-        <!-- Modal -->
-        <div
-          class="modal fade smm-modal"
-          id="more-modal"
-          tabindex="-1"
-          aria-labelledby="exampleModalLabel"
-          aria-hidden="true"
-        >
-          <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content border-0 bg-transparent">
-              <div class="smm-modal-content">
-                <a href="#" data-bs-dismiss="modal" class="modal-close">
-                  <i class="fal fa-times"></i>
-                </a>
-                <img
-                  src="images/smm-modal-shape.svg"
-                  alt=""
-                  class="modal-tp-shape"
-                />
-                <div class="smm-modal__title">
-                  <h3 class="mb-0">רוצים לשמוע עוד?</h3>
+              <div class="contact-form">
+                <div class="contact-form__main row">
+                  <div class="col-lg-3 col-md-6">
+                    <div class="single-input-x">
+                      <div class="input-x-outer">
+                        <input
+                          type="text"
+                          class="input-x"
+                          placeholder="שם מלא"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6">
+                    <div class="single-input-x">
+                      <div class="input-x-outer">
+                        <input type="text" class="input-x" placeholder="נייד" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6">
+                    <div class="single-input-x">
+                      <div class="input-x-outer">
+                        <input
+                          type="text"
+                          class="input-x"
+                          placeholder="אימייל"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6">
+                    <div class="single-input-x">
+                      <div class="input-x-outer">
+                        <input
+                          type="text"
+                          class="input-x submit"
+                          value="דברו איתי!"
+                        />
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div class="modal-form">
-                  <div class="modal-form__main row">
-                    <div class="col-12">
-                      <div class="single-input-x">
-                        <div class="input-x-outer">
-                          <input
-                            type="text"
-                            class="input-x"
-                            placeholder="*השם שלך"
-                          />
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-12">
-                      <div class="single-input-x">
-                        <div class="input-x-outer">
-                          <input
-                            type="text"
-                            class="input-x"
-                            placeholder="*המספר שלך"
-                          />
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-12">
-                      <div class="single-input-x">
-                        <div class="input-x-outer">
-                          <input
-                            type="text"
-                            class="input-x"
-                            placeholder="המייל שלך"
-                          />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="modal-form__bottom">
-                    <label>
-                      <input type="checkbox" class="checkbox checkbox-sm" />
-                      <span class="txt"
-                        >אני מאשר/ת קבלת דיוורים ישירים ודברי פרסומות מ-HackerU
-                        בכפוף למדיניות הגנת הפרטיות
-                      </span>
-                    </label>
-                    <p>
-                      <a class="underline fw-600" href="#"
-                        >מדיניות הגנת הפרטיות</a
-                      >
-                    </p>
-                    <a
-                      data-bs-dismiss="modal"
-                      href="#"
-                      class="default-button modal-submit-button"
-                      >שלח טופס</a
+                <div class="contact-form__bottom">
+                  <p>
+                    <input type="checkbox" class="checkbox-sm ms-1" />
+                    <span class="txt"
+                      >אני מאשר/ת קבלת עדכונים ומבצעים מהאקריו בכפוף לתקנון
+                      <span class="underline">
+                        מדיניות פרטיות משתמשים.</span
+                      ></span
                     >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- contact-us-section-end -->
+
+        <!-- plus-section -->
+        <section class="plus-section">
+          <div class="container">
+            <div
+              class="plus-section__title plus-section__title cont-blk cont-blk--cente"
+            >
+              <img
+                src="images/hackerU_Plus+slogenpurple 1.png"
+                alt=""
+                class="hack_plus-img"
+              />
+            </div>
+
+            <div class="hacker-plus-box">
+              <div class="row g-5">
+                <div class="col-lg-6">
+                  <div class="cont-blk">
+                    <h4 class="h4">במהלך מסלול ההכשרה</h4>
+                    <ul class="dot-ul dot-ul--dot-theme1-light">
+                      <li>שיעורים פרטיים 1x1 ללא עלות נוספת</li>
+                      <li>הרצאות אורח עם מרצים חיצוניים מהתעשייה</li>
+                      <li>שעות תרגול קבוצתיות שבועיות ללא עלות נוספת</li>
+                      <li>
+                        למידה במתכונת פרונטלית בכיתה או אונליין לייב ב-ZOOM עם
+                        שיעורים המוקלטים לצפייה חוזרת ב- HackerU VOD
+                      </li>
+                    </ul>
                   </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="cont-blk">
+                    <h4 class="h4">בסיום הלימודים</h4>
+                    <ul class="dot-ul dot-ul--dot-theme1-light">
+                      <li>יציאה עם תיק עבודות מקצועי ברמה הגבוהה ביותר</li>
+                      <li>
+                        גישה למערכת הקמפוס (למידה) הכוללת את כל חומרי הלימוד
+                        והתרגולים עד חצי שנה מסיום הלימודים
+                      </li>
+                      <li>
+                        הצטרפות לקהילת פייסבוק עם מרצים, בוגרים וסטודנטים
+                        מהתחום, המאפשרת יצירת קשרים, שיתופי פעולה שונים, תחרויות
+                        ועוד
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="job-faqs">
+              <div class="job-faqs-title sec-title cont-blk cont-blk--center">
+                <h3 class="h3 mb-0">באיזה משרות תוכלו לעבוד אחרי הלימודים ?</h3>
+              </div>
+              <div class="faqs-wrapper" id="job-faq-parent">
+                <!-- single-faq -->
+                <div class="single-faq">
+                  <a
+                    href="#"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#job-faq-1"
+                    class="single-faq__tilte"
+                  >
+                    <h4 class="h4 mb-0">אנליסט אבטחת מידע</h4>
+                    <div class="ind-icon"></div>
+                  </a>
+                  <div
+                    class="single-faq__body collapse"
+                    id="job-faq-1"
+                    data-bs-parent="#job-faq-parent"
+                  >
+                    <div class="single-faq__body__inner">
+                      <div class="row">
+                        <div class="col-lg-6">
+                          <div class="cont-blk">
+                            <h4 class="mb-1">תחומי אחריות</h4>
+                            <p>
+                              תמיכה במערכות אבטחה ומעקב וטיפול בהתראות ואירועי
+                              אבטחה. סיוע ביצירה, הפצה והטמעה של מדיניות אבטחת
+                              מידע בארגון.
+                            </p>
+                          </div>
+                        </div>
+                        <div class="col-lg-6">
+                          <div class="cont-blk">
+                            <h4 class="mb-1">דרישות התפקיד</h4>
+                            <ul class="dot-ul">
+                              <li>ידע בניהול והערכה של איומי אבטחה.</li>
+                              <li>ידע בניהול אירועי סייבר</li>
+                              <li>
+                                ידע וניסיון בביצוע הערכת אבטחה, בדיקות, מודיעין
+                                וזיהוי איומים.
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- single-faq-end -->
+                <!-- single-faq -->
+                <div class="single-faq">
+                  <a
+                    href="#"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#job-faq-2"
+                    class="single-faq__tilte"
+                  >
+                    <h4 class="h4 mb-0">אנליסט אבטחת מידע</h4>
+                    <div class="ind-icon"></div>
+                  </a>
+                  <div
+                    class="single-faq__body collapse"
+                    id="job-faq-2"
+                    data-bs-parent="#job-faq-parent"
+                  >
+                    <div class="single-faq__body__inner">
+                      <div class="row">
+                        <div class="col-lg-6">
+                          <div class="cont-blk">
+                            <h4 class="mb-1">תחומי אחריות</h4>
+                            <p>
+                              תמיכה במערכות אבטחה ומעקב וטיפול בהתראות ואירועי
+                              אבטחה. סיוע ביצירה, הפצה והטמעה של מדיניות אבטחת
+                              מידע בארגון.
+                            </p>
+                          </div>
+                        </div>
+                        <div class="col-lg-6">
+                          <div class="cont-blk">
+                            <h4 class="mb-1">דרישות התפקיד</h4>
+                            <ul class="dot-ul">
+                              <li>ידע בניהול והערכה של איומי אבטחה.</li>
+                              <li>ידע בניהול אירועי סייבר</li>
+                              <li>
+                                ידע וניסיון בביצוע הערכת אבטחה, בדיקות, מודיעין
+                                וזיהוי איומים.
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- single-faq-end -->
+                <!-- single-faq -->
+                <div class="single-faq">
+                  <a
+                    href="#"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#job-faq-3"
+                    class="single-faq__tilte"
+                  >
+                    <h4 class="h4 mb-0">אנליסט אבטחת מידע</h4>
+                    <div class="ind-icon"></div>
+                  </a>
+                  <div
+                    class="single-faq__body collapse"
+                    id="job-faq-3"
+                    data-bs-parent="#job-faq-parent"
+                  >
+                    <div class="single-faq__body__inner">
+                      <div class="row">
+                        <div class="col-lg-6">
+                          <div class="cont-blk">
+                            <h4 class="mb-1">תחומי אחריות</h4>
+                            <p>
+                              תמיכה במערכות אבטחה ומעקב וטיפול בהתראות ואירועי
+                              אבטחה. סיוע ביצירה, הפצה והטמעה של מדיניות אבטחת
+                              מידע בארגון.
+                            </p>
+                          </div>
+                        </div>
+                        <div class="col-lg-6">
+                          <div class="cont-blk">
+                            <h4 class="mb-1">דרישות התפקיד</h4>
+                            <ul class="dot-ul">
+                              <li>ידע בניהול והערכה של איומי אבטחה.</li>
+                              <li>ידע בניהול אירועי סייבר</li>
+                              <li>
+                                ידע וניסיון בביצוע הערכת אבטחה, בדיקות, מודיעין
+                                וזיהוי איומים.
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- single-faq-end -->
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- plus-section-end -->
+
+        <!-- faq-section -->
+        <div class="faq-section">
+          <div class="faq-section__row">
+            <div class="faq-section__title-side">
+              <img src="images/common-faq-shape.png" alt="" class="shape" />
+              <h3 class="h3 mb-0">שאלות נפוצות</h3>
+            </div>
+            <div class="faq-section__faq-side">
+              <div class="common-faqs">
+                <div class="faqs-wrapper" id="common-faq-parent">
+                  <!-- single-faq -->
+                  <div class="single-faq">
+                    <a
+                      href="#"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#common-faq-1"
+                      class="single-faq__tilte"
+                    >
+                      <h4 class="h4 mb-0">מה זה Pre Work?</h4>
+                      <div class="ind-icon"></div>
+                    </a>
+                    <div
+                      class="single-faq__body collapse"
+                      id="common-faq-1"
+                      data-bs-parent="#common-faq-parent"
+                    >
+                      <div class="single-faq__body__inner">
+                        <p>
+                          המטרה שלנו היא להבין האם יש התאמה בינך לבין הקורס עוד
+                          בתחילת הדרך, לכן יצרנו את שלב ה-Pre Work (קורס מיון)
+                          26 שעות אקדמיות, המשלב למידה צמודה עם מרצים ומתרגלים
+                          לצד לימודים עצמאיים הכוללים:
+                        </p>
+                        <p>
+                          היכרות בסיסית עם מחשבים, חומרה, מערכות הפעלה, ווינדוס
+                          ולינוקס
+                        </p>
+                        <p>תקשורת בסיסית ומודל OSI</p>
+                        <p>כלים: Wireshark & Putty</p>
+                        <p>
+                          בסיום שלב זה, תתקיים בחינה, הסטודנטים המסיימים אותה
+                          בהצלחה ממשיכים איתנו הלאה, האחרים שלא (או שהבינו
+                          שהתחום לא מתאים להם)
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- single-faq-end -->
+                  <!-- single-faq -->
+                  <div class="single-faq">
+                    <a
+                      href="#"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#common-faq-2"
+                      class="single-faq__tilte"
+                    >
+                      <h4 class="h4 mb-0">מה זה Pre Work?</h4>
+                      <div class="ind-icon"></div>
+                    </a>
+                    <div
+                      class="single-faq__body collapse"
+                      id="common-faq-2"
+                      data-bs-parent="#common-faq-parent"
+                    >
+                      <div class="single-faq__body__inner">
+                        <p>
+                          המטרה שלנו היא להבין האם יש התאמה בינך לבין הקורס עוד
+                          בתחילת הדרך, לכן יצרנו את שלב ה-Pre Work (קורס מיון)
+                          26 שעות אקדמיות, המשלב למידה צמודה עם מרצים ומתרגלים
+                          לצד לימודים עצמאיים הכוללים:
+                        </p>
+                        <p>
+                          היכרות בסיסית עם מחשבים, חומרה, מערכות הפעלה, ווינדוס
+                          ולינוקס
+                        </p>
+                        <p>תקשורת בסיסית ומודל OSI</p>
+                        <p>כלים: Wireshark & Putty</p>
+                        <p>
+                          בסיום שלב זה, תתקיים בחינה, הסטודנטים המסיימים אותה
+                          בהצלחה ממשיכים איתנו הלאה, האחרים שלא (או שהבינו
+                          שהתחום לא מתאים להם)
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- single-faq-end -->
                 </div>
               </div>
             </div>
           </div>
         </div>
+        <!-- faq-section-end -->
       </main>
       <!-- main end -->
 
       <!-- footer-section -->
-      <footer class="footer-section"></footer>
+      <footer class="footer-section">
+        <div class="footer-top">
+          <div class="container">
+            <div class="footer-top__inner">
+              <a href="index.html" class="footer-logo">
+                <img src="images/footer-logo.svg" alt="" />
+              </a>
+              <div class="footer-menu">
+                <a class="d-block" href="#">מתחם HackerU</a>
+                <a class="d-block big" href="TEL:03-613-5565"> 03-613-5565</a>
+                <a class="d-block" href="#"
+                  >רח' שוהם 5, מגדלי פז, קומה 3,
+                  <br />
+                  מתחם הבורסה, רמת גן, בצמוד לרכבת מרכז</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="container">
+            <div class="footer-bottom__inner">
+              <div class="by">
+                <img src="images/thrivedx.svg" alt="" class="trive" />
+                <span>by</span>
+              </div>
+              <a href="#" class="underline">מדיניות פרטיות</a>
+            </div>
+          </div>
+        </div>
+      </footer>
       <!--End footer-section -->
+
+      <!-- Modal -->
+      <div
+        class="modal fade smm-modal"
+        id="text-book-modal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content border-0 bg-transparent">
+            <div class="smm-modal-content">
+              <a href="#" data-bs-dismiss="modal" class="modal-close">
+                <i class="fal fa-times"></i>
+              </a>
+              <img
+                src="images/smm-modal-shape.svg"
+                alt=""
+                class="modal-tp-shape"
+              />
+              <div class="smm-modal__title">
+                <h3 class="mb-0">
+                  סילבוס קורס שיווק
+                  <br />
+                  דיגיטלי-מאסטר
+                  <br />
+                  בשיווק ופרסום דיגיטלי
+                </h3>
+              </div>
+              <div class="modal-form">
+                <div class="modal-form__main row">
+                  <div class="col-12">
+                    <div class="single-input-x">
+                      <div class="input-x-outer">
+                        <input
+                          type="text"
+                          class="input-x"
+                          placeholder="*השם שלך"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="single-input-x">
+                      <div class="input-x-outer">
+                        <input
+                          type="text"
+                          class="input-x"
+                          placeholder="*המספר שלך"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="single-input-x">
+                      <div class="input-x-outer">
+                        <input
+                          type="text"
+                          class="input-x"
+                          placeholder="המייל שלך"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-form__bottom">
+                  <label>
+                    <input type="checkbox" class="checkbox checkbox-sm" />
+                    <span class="txt fw-600"
+                      >יש לי מספר שאלות, אשמח אם נציג/ה יחזרו אליי</span
+                    >
+                  </label>
+                  <label>
+                    <input type="checkbox" class="checkbox checkbox-sm" />
+                    <span class="txt"
+                      >אני מאשר/ת קבלת דיוורים ישירים ודברי פרסומות מ-HackerU
+                      בכפוף למדיניות הגנת הפרטיות
+                    </span>
+                  </label>
+                  <p>
+                    <a class="underline fw-600" href="#"
+                      >מדיניות הגנת הפרטיות</a
+                    >
+                  </p>
+                  <a
+                    data-bs-dismiss="modal"
+                    href="#"
+                    class="default-button modal-submit-button"
+                    >שלחו לי</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal -->
+      <div
+        class="modal fade smm-modal"
+        id="more-modal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content border-0 bg-transparent">
+            <div class="smm-modal-content">
+              <a href="#" data-bs-dismiss="modal" class="modal-close">
+                <i class="fal fa-times"></i>
+              </a>
+              <img
+                src="images/smm-modal-shape.svg"
+                alt=""
+                class="modal-tp-shape"
+              />
+              <div class="smm-modal__title">
+                <h3 class="mb-0">רוצים לשמוע עוד?</h3>
+              </div>
+              <div class="modal-form">
+                <div class="modal-form__main row">
+                  <div class="col-12">
+                    <div class="single-input-x">
+                      <div class="input-x-outer">
+                        <input
+                          type="text"
+                          class="input-x"
+                          placeholder="*השם שלך"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="single-input-x">
+                      <div class="input-x-outer">
+                        <input
+                          type="text"
+                          class="input-x"
+                          placeholder="*המספר שלך"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="single-input-x">
+                      <div class="input-x-outer">
+                        <input
+                          type="text"
+                          class="input-x"
+                          placeholder="המייל שלך"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-form__bottom">
+                  <label>
+                    <input type="checkbox" class="checkbox checkbox-sm" />
+                    <span class="txt"
+                      >אני מאשר/ת קבלת דיוורים ישירים ודברי פרסומות מ-HackerU
+                      בכפוף למדיניות הגנת הפרטיות
+                    </span>
+                  </label>
+                  <p>
+                    <a class="underline fw-600" href="#"
+                      >מדיניות הגנת הפרטיות</a
+                    >
+                  </p>
+                  <a
+                    data-bs-dismiss="modal"
+                    href="#"
+                    class="default-button modal-submit-button"
+                    >שלח טופס</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <!-- main-wrap -->
 
